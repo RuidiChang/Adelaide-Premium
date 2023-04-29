@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ui_top10" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.store.ui.Top10Report">
+   <children>
+      <Button layoutX="34.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#click_return_menu" text="Return">
+         <font>
+            <Font name="Apple Chancery" size="13.0" />
+         </font></Button>
+      <Text layoutX="34.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 10 items of shirts">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font></Text>
+      <Text layoutX="34.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 10 items of trousers">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font></Text>
+      <Text layoutX="34.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 10 items of jackets">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font></Text>
+      <Label fx:id="label" layoutX="34.0" layoutY="124.0" text="Top 10 shirts" textFill="#026897">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font></Label>
+      <Button fx:id="shirtcheck" layoutX="189.0" layoutY="84.0" mnemonicParsing="false" onMouseClicked="#click_check_shirt" text="See Shirts">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font></Button>
+      <PieChart fx:id="pieChart" layoutX="351.0" layoutY="77.0" prefHeight="164.0" prefWidth="239.0" />
+      <Button fx:id="jacketcheck" layoutX="189.0" layoutY="219.0" mnemonicParsing="false" onMouseClicked="#click_check_jacket" text="See Jackets">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="trousercheck" layoutX="189.0" layoutY="154.0" mnemonicParsing="false" onMouseClicked="#click_check_trouser" text="See Trousers">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="label3" layoutX="34.0" layoutY="258.0" text="Top 10 jackets" textFill="#026897">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="34.0" layoutY="193.0" text="Top 10 trousers" textFill="#026897">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font>
+      </Label>
+      <Button fx:id="compare" layoutX="442.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#click_check_compara" text="Compare">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

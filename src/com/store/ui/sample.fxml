@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="ui_sample" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.store.ui.Controller">
+   <children>
+      <Button fx:id="btn_browse_items" layoutX="130.0" layoutY="298.0" mnemonicParsing="false" text="Browse Items">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_enter_order" layoutX="269.0" layoutY="298.0" mnemonicParsing="false" text="Enter Order">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_display_random" layoutX="393.0" layoutY="298.0" mnemonicParsing="false" text="Random Catalog">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_stock_report" layoutX="78.0" layoutY="343.0" mnemonicParsing="false" text="Stock Report">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_quarterly_report" layoutX="190.0" layoutY="343.0" mnemonicParsing="false" text="Quarterly Report">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_customer_report" layoutX="321.0" layoutY="343.0" mnemonicParsing="false" text="Customer Report">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_monthly_report" layoutX="445.0" layoutY="343.0" mnemonicParsing="false" text="Monthly Report ">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Button>
+      <Text fill="#e59609" layoutX="37.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Adelaide Premuim Order System!">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="16.0" />
+         </font>
+      </Text>
+      <Circle layoutX="564.0" radius="100.0" stroke="#c8db2a" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7236841917037964" green="0.15746831893920898" blue="0.15746831893920898" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.69285994245127">
+                     <color>
+                        <Color red="0.9438297748565674" green="1.0" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.569361686706543" green="1.0" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <ImageView fitHeight="147.0" fitWidth="368.0" layoutX="116.0" layoutY="115.0">
+         <image>
+            <Image url="@image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="96.0" layoutX="67.0" layoutY="81.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="43.0" layoutX="412.0" layoutY="230.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="96.0" layoutX="115.0" layoutY="189.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="79.0" layoutX="425.0" layoutY="81.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="29.0" layoutX="379.0" layoutY="119.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="193.0" layoutY="101.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="43.0" layoutX="372.0" layoutY="180.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="96.0" layoutX="465.0" layoutY="171.0">
+         <image>
+            <Image url="@image2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
